@@ -5,7 +5,7 @@ Ferramenta para criação de payload HID para android sem nethunter e sem rubber
 <li>Android</li>
 <li>Servidor PHP</li>
 <li>Kernel Stellar Para Android (Atenção isto varia de acordo com o modelo do aparelho)</li>
-<li>HID keyboard (<a href='https://github.com/pelya/android-keyboard-gadget/tree/master/hid-gadget-test'>Download</a>)</li>
+<li>HID keyboard (<a target='_blank' href='https://github.com/pelya/android-keyboard-gadget/tree/master/hid-gadget-test'>Download</a>)</li>
 </ul>
 <h1>Como utilizar</h1>
 <p>É bem simples, na verdade o próprio script já traz algumas opções de payloads, para criar o payload
