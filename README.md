@@ -12,7 +12,7 @@ basta, abrir o seu servidor no lugar onde colocou o seu <b>AndroDucky</b> e depo
 via metódo GET, ou somente descer um pouco a página e adequar os scripts de acordo com sua vontade
 e clicar em <b>Generate Payload</b></p>
 <h1>Exemplos</h1>
-<p>localhost/androducky.php?<b>string</b>=WDcmdEDstartSchrome.exeE&<b>archive</b>=payload<br>
+<p>localhost/androducky.php?<b>string</b>=WD<font color="red">cmd</font>ED<font color="red">start</font>S<font color="red">chrome.exe</font>E&<b>archive</b>=payload<br>
 O primeiro paramêtro <b>string</b> significa o payload e o segundo <b>archive</b> o nome preterído<br>
 no script tem explicando o que significa cada um dos comandos
 </p>
