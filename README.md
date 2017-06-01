@@ -8,14 +8,8 @@ Ferramenta para criação de payload HID para android sem nethunter e sem rubber
 <li>HID keyboard (<a target='_blank' href='https://github.com/pelya/android-keyboard-gadget/tree/master/hid-gadget-test'>Download</a>)</li>
 </ul>
 <h1>Como utilizar</h1>
-<p>É bem simples, na verdade o próprio script já traz algumas opções de payloads, para criar o payload
-basta, abrir o seu servidor no lugar onde colocou o seu <b>AndroDucky</b> e depois passar o payload
-via metódo GET, ou somente descer um pouco a página e adequar os scripts de acordo com sua vontade
-e clicar em <b>Generate Payload</b></p>
-<h1>Exemplos</h1>
-<p>localhost/androducky.php?<b>string</b>=WD<font color="red">cmd</font>ED<font color="red">start</font>S<font color="red">chrome.exe</font>E&<b>archive</b>=payload<br>
-O primeiro paramêtro <b>string</b> significa o payload e o segundo <b>archive</b> o nome preterído<br>
-no script tem explicando o que significa cada um dos comandos
+<p>É bem simples, primeiro use o <b>converter.php</b> e vai converter o seu script RubberDucky para o formato AndroDucky<br>
+depois utilize o script <b>androducky.php</b> e selecione o arquivo .txt criado pelo o converter pronto é so isso passe o <br>payload para o seu celular e seja feliz.
 </p>
 <h1>Como executar o payload</h1>
 <p>Basta acessar o terminal no seu Android ir na pasta onde colocou e digitar<br>
