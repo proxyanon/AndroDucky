@@ -1,0 +1,29 @@
+		* {padding: 0px;margin: 0px;box-sizing: border-box;}
+		html {background-image: url('../img/back.jpg');background-size: 100%;background-attachment: fixed;color: white;background-repeat: no-repeat;background-color: black;}
+		body {z-index: 99;background-color: rgba(0, 0,0, .7);height: 100%;width:100%;position: absolute;background-size: 100%;}
+		header.topo {padding: 10px;}
+		header.topo h2 {color: white;font-family: monospace;font-size: 2.5em;text-shadow: 1px 1px 1px white, 1px 1px 2px white;}
+		header.topo img {float: right;color: white;margin-top: -60px;margin-right:20px;border-radius: 7px;}
+		section.disclaimer {padding: 10px;width: 500px;}
+		section.disclaimer h4 {color: white;font-family: monospace;font-size: 1.1em;}
+		section.howto {padding: 10px;}
+		section.howto h2 {font-family: 'Roboto', sans-serif;}
+		section.howto ul {list-style: none;padding: 5px;}
+		section.howto li {font-family: 'Arimo', sans-serif;padding: 15px;display: inline-block;background-color: white;color: black;border-radius: 15px;width: 400px;text-align: center;margin: 10px;cursor: pointer;font-weight: bold;font-size: 17px;}
+		section.howto li:hover {background-color: rgba(255, 255, 255, .9);transition: .5s;}
+		section.howto li img.arrow {position: absolute;margin-top: 40px;}
+		section.howto li img.pato {margin-left: -15px;}
+		section.howto li img.andro {margin-left: 60px;}
+		section.rbtoad {padding: 10px;}
+		section.rbtoad {font-family: 'Roboto', sans-serif;}
+		section.rbtoad form {padding: 10px;}
+		section.rbtoad input {padding: 5px;width: 300px;border-radius: 4px;border: 1px solid white;margin-top: 5px;}
+		section.rbtoad input[type='file'] {border: 1px solid transparent;}
+		section.rbtoad input[type='text'] {background-color: white;border: 1px solid white
+			;color: black;padding: 8px;}
+		section.rbtoad input[type='submit'] {background-color: white;color: black;font-weight: bold;cursor: pointer;padding: 10px;font-family: 'Arimo', sans-serif;border: 1px solid white;}
+		section.rbtoad input[type='submit']:hover, input[type='submit']:focus {background-color: black;color: white;font-weight: bold;cursor: pointer;padding: 10px;font-family: 'Arimo', sans-serif;border: 1px solid black;transition: .5s;}
+		aside.stats_payload{padding: 10px;width: 490px;position: absolute;bottom:45px;right: 140px;font-family: monospace;font-size: 14px;background-color: rgba(0,0,0,.9);border-radius: 4px;border: 1px solid black;color: lime;text-shadow: 1px 1px 10px lime;text-align: left;}
+		aside.stats_payload ul {position: relative;left: 10px;}
+		aside.stats_payload font {color: red;text-shadow: 1px 1px 10px red;}
+		footer {position: absolute;bottom: 5px;left: 50%;right: 50%;width: 500px;margin-left: -150px;font-family: monospace;}
