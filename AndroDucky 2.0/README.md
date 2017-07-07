@@ -16,3 +16,7 @@ depois passe o payload gerado para o seu Android no local onde está o hid-keybo
 <b>root@titan:~# sh payload.sh</b><br>
 Obviamente antes de executar o payload você precisa conectar seu celular em algum computador, e é so isso sejam felizes =D !<br>
 </p>
+<h1>AndroDucky versão para Terminal</h1>
+É realmente bem mais simples de ser usado, você vai precisar de um terminal com php e rodar o seguinte comando
+<b>terminalPC@root:~# php AndroDuckyTerminal.php</b>
+e pronto o próprio script vai te dizer como ser usado !
