@@ -22,7 +22,7 @@
 					$content = 'echo "' . $string[$i] . '" | ./hid-keyboard /dev/hidg0 keyboard > /dev/null' . "\r\n";
 				}
 			}
-			if(!$abrir = fopen($archive, "a")){
+			if(!$abrir = fopen($archive, "w")){
 				echo "Error";
 			}
 			$yes = fwrite($abrir, $content);
